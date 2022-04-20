@@ -7,9 +7,9 @@
 \*---------------------------------------------------------------------------*/
 
 // controlDict.tke
-valEndTimeTKE                 6000; // 
+valEndTimeTKE                 5250; // 
 valDeltaTTKE                  0.15;
-valWriteIntervalTKE           1000; // 1000;
+valWriteIntervalTKE           250; // 1000;
 valAdjustTimeStepTKE          no;
 valMaxCoTKE                   0.5;  // 
 
