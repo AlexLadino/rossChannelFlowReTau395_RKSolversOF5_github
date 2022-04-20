@@ -1,7 +1,7 @@
 #!/bin/sh
 cd ${0%/*} || exit 1    # Run from this directory
 
-tiempo='6000.00000000'
+tiempo='5250.00000000'
 reconstructPar -time $tiempo
 mv $tiempo/U $tiempo/U.orig
 cp $tiempo/UMean $tiempo/U
