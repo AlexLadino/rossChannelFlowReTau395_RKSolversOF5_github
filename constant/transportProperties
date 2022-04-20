@@ -1,0 +1,39 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  4.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//nuVisc          nuVisc   [0 2 -1 0 0 0 0] 2e-05;
+
+nuVisc          (2e-05);
+
+Ubar            [0 1 -1 0 0 0 0] (0.1335 0 0);
+
+transportModel  Newtonian;
+
+nu             [0 2 -1 0 0 0 0] 2e-05;
+
+/* (1 0 0)
+Flujo positivo en x: gradPP (+ 0 0)
+Flujo negativo en x: gradPP (- 0 0)
+*/
+
+delPx       0.00006241;
+delPy       0.0;
+delPz       0.0;
+
+// 
+
+// ************************************************************************* //

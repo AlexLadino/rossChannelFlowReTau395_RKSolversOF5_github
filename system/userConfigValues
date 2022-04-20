@@ -1,0 +1,17 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+// controlDict.tke
+valEndTimeTKE                 6000; // 
+valDeltaTTKE                  0.15;
+valWriteIntervalTKE           1000; // 1000;
+valAdjustTimeStepTKE          no;
+valMaxCoTKE                   0.5;  // 
+
+// ************************************************************************* //
+
